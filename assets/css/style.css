@@ -26,15 +26,22 @@ body{
 
 /*contactus*/
 
-
-
 footer {
+    height: 100px;
+}
+
+.social-media {
+    text-align: center;
+}
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
     font-size: 100%;
     padding: 6%;
     margin: 0.5%
     text-align: center;
-    display: inline;
-        
 }
 
 
