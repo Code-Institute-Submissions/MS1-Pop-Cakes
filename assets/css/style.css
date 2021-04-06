@@ -7,44 +7,26 @@ body{
     background: #FFA6C1
 }
 
-nav {
+#main-menu {
     letter-spacing: 5px
-    font-size: 100%;
-        
+    font-size: 200%;   
+    line-height: 5px;   
 }
 
-#Nav li{
-   margin-right 25px
-   display: inline;
-
+#main-menu  li{
+   margin-left: 40px
+   float: left;
 }
 
-#Nav a {
-    color: inherit;
+#main-menu  a {
+    text-decoration: none;
+    color: blue;
 }
 
-#Nav a:hoover {
+#main-menu  a:hoover {
     border-bottom: 2px solid white;
 }
 
-
-
-footer {
-    height: 100px;
-}
-
-.social-media {
-    text-align: center;
-}
-.social-media li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 100%;
-    padding: 6%;
-    margin: 0.5%
-    text-align: center;
 }
 img {
     overflow: contain;
