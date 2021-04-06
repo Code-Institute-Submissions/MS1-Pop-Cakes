@@ -67,6 +67,29 @@ img {
 
 /*contactus*/
 
+.pop-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 500px;
+    transform: translate (-40%, -40%);
+    box-sizing: border-box;
+    box-shadow: 0 0 30px blue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.pop-message h2 {
+    margin-top: 0;
+}
+
+.contact {
+
+
+}
+
 footer {
     height: 100px;
 }
