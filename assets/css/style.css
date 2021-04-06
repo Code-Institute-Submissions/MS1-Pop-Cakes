@@ -2,21 +2,37 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     background: #FFA6C1
 }
 
+h2 {
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    text-transform: Uppercase;
+    Color: blue;
+}
+
+
+
+#temp-logo {
+    font-size: 300%;
+    margin-left: 40px;
+    float: left;
+    line-height: 60px;
+}
+
 #main-menu {
-    letter-spacing: 5px
-    font-size: 200%;   
+    font-size: 200%;
+    letter-spacing: 5px      
     line-height: 60px;
     list-style-type: none;   
 }
 
 #main-menu  li {
-   margin-right: 40px
-   float: right;
-
+    float: right;
+    margin-right: 40px
+  
 }
 
 #main-menu  a {
