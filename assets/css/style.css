@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
     box-sizing: border-box;
-    background: hsla(345, 40%, 60%, 1);
+    background: -webkit-linear-gradient(315deg, hsla(345, 40%, 60%, 1) 0%, hsla(334, 81%, 60%, 1) 10%, hsla(48, 71%, 66%, 1) 61%, hsla(59, 83%, 57%, 1) 100%);
 }
 /*header/*
 
@@ -30,10 +30,10 @@ body{
 
 /*footer*/
 .social-media {
-    font-size: 200%;
+    font-size: 100%;
     padding: 10%;
     margin: 1.5%
-    colour: #ffc4d6;
+    background-color: #ffc4d6;
 }
 
 
