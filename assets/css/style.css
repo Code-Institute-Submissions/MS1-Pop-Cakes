@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Noto-Sans-JP', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     background: #FFA6C1
 }
 
 #main-menu {
     letter-spacing: 5px
     font-size: 200%;   
-    line-height: 5px;   
+    line-height: 60px;
+    list-style-type: none;   
 }
 
-#main-menu  li{
-   margin-left: 40px
-   float: left;
+#main-menu  li {
+   margin-right: 40px
+   float: right;
+
 }
 
 #main-menu  a {
@@ -23,11 +24,11 @@ body{
     color: blue;
 }
 
-#main-menu  a:hoover {
+#main-menu  a:hover {
     border-bottom: 2px solid white;
 }
 
-}
+
 img {
     overflow: contain;
     box-sizing: border-box;
