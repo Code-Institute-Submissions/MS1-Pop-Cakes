@@ -28,13 +28,17 @@ body{
 
 
 
-/*footer*/
-.social-media {
+footer {
+     font-color: rgba (100 0 0 1);
+}
+
+.social-media li {
     font-size: 100%;
-    padding: 10%;
+    padding: 6%;
     margin: 0.5%
-    font-color: rgba (100 0 0 1);
-    
+    display: inline;
+    text-align: center;
+     
 }
 
 
