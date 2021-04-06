@@ -2,12 +2,17 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto-Sans-JP', sans-serif;
     box-sizing: border-box;
-    background: -webkit-linear-gradient(315deg, hsla(345, 40%, 60%, 1) 0%, hsla(334, 81%, 60%, 1) 10%, hsla(48, 71%, 66%, 1) 61%, hsla(59, 83%, 57%, 1) 100%);
+    background: #FFA6C1
 }
-/*header/*
 
+
+
+img {
+    overflow: contain;
+    box-sizing: border-box;
+  }
 
 
 
