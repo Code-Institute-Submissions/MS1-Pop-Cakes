@@ -29,16 +29,12 @@ body{
 
 
 footer {
-     font-color: rgba (100 0 0 1);
-}
-
-.social-media li {
     font-size: 100%;
     padding: 6%;
     margin: 0.5%
-    display: inline;
     text-align: center;
-     
+    display: inline;
+        
 }
 
 
