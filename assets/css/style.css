@@ -24,7 +24,7 @@ h2 {
 
 #main-menu {
     font-size: 200%;
-    letter-spacing: 5px      
+    letter-spacing: 5px;      
     line-height: 60px;
     list-style-type: none;   
 }
@@ -81,7 +81,7 @@ footer {
 .social-media i {
     font-size: 100%;
     padding: 6%;
-    margin: 0.5%
+    margin: 0.5%;
     text-align: center;
 }
 
