@@ -13,7 +13,10 @@ h2 {
     Color: blue;
 }
 
-
+img {
+    overflow: hidden;
+    box-sizing: border-box;
+}
 
 #temp-logo {
     font-size: 300%;
@@ -45,47 +48,39 @@ h2 {
 }
 
 
+
 /*home*/
 
 
 
-
-
-
-
-
-
-
 .poppam-section {
-    padding: 100px o;
-    overflow: hidden;
-    background-size: 55%;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px blue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 40px;
 }
 
-.inner-box {
-    padding: 200px;
-    float: right;
-    width: 60%;
-}
-
-.inner-box h1 {
-    margin-bottom: 30px
-    font-size: 30px;
-    font-weight: 300;
-    color: blue;
-}
 
 .notes {
     font-size: 14px;
     line-height: 40px;
     text-align: justify;
     margin-bottom: 40px;
+    color: blue;
 }
 
 .cakes {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    color: blue;
 }
 
 
