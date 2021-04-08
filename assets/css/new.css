@@ -1,6 +1,27 @@
-*{
+body{
     font-family: 'Oxygen', sans-serif;
+    background: #BCA7B4;
+    
 }
+
+.navbar-item {
+    color: #A63A50;
+
+}
+
+.navbar.nav-link {
+    text-transform: none;
+    font-size: 15px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    
+}
+
+
 
 <!Nav..........>
 <!Nav End..........>
@@ -26,6 +47,59 @@
 
 
 <---!contact us--->
+.pop-message h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+.contact {
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: 2px solid #FFA6C1;
+}
+
+.contact label {
+    text-align: left;
+    text-transform: Uppercase;
+    display: block;
+}
+
+.contact input, .contact textarea {
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 0;
+    color: blue;
+    cursor: pointer;
+    text-transform: Uppercase;
+    margin-top: 5px;
+    width: 100%;
+}
 <!contact us Ends....>
 
 <---Footer--->
+footer {
+    background: #BCA7B4;
+   }
+
+.social-media {
+    text-align: center;
+}
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 100%;
+    padding: 6%;
+    margin: 0.5%;
+    text-align: center;
+}
