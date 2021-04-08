@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit+no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,12 +13,58 @@
 <title>Pops</title>
 </head>
 <body>
-<!Nav..........>
-<!Nav End..........>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i>PAM's POPS</i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">PopCakes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">PopPam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">Contact</a>
+                    </li>
+                    <li>
+                         <a href="#" target="_blank"><i class="fas fa-phone-alt"></i></a>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </nav>
+    </header>
+        
+<---!Slideshow--->
+<section id="main">
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel" data-slide-to="1"></li>
+            <li data-target="#Carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                  <h1 class="display-3 h-color">Heading One</h1>
+                  <p class="lead">Cakes that Pop</p>
+                  <a href="#" class="btn btn-color slide-btn btn-lg">Order Now</a>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div> 
 
-
-<!Slideshow........>
-<!Slideshow Ends........>
+<---!Slideshow Ends--->
 
 <!Cakes Options....>
 <!Cakes Options Ends.....>
@@ -33,14 +79,62 @@
 
 
 <!About Pam.......>
+
 <!About Pam Ends.......>
 
 
 <---!contact us--->
 <!contact us Ends....>
-
+<section>
+    <div class="container">        
+       <div class="pop-message">        
+           <form class="col-lg--6 offset-lg-3">
+               <h2>Pop us a message</h2>                
+                <div class="contact">           
+                    <label>Full Name:</label>
+                    <input type="text" name="fullname" value="" placeholder="Please enter your First and Last name" required>
+                </div>
+                <div class="contact">           
+                    <label>Email Address:</label>
+                    <input type="email" name="email_address" value="" placeholder="Please enter your Email address" required>
+                </div>
+                <div class="contact">           
+                    <label>Phone Number:</label>
+                    <input type="text" name="phone_number" value="" placeholder="Please enter your Phone Number" required>
+                </div>
+                <div class="contact">           
+                    <label>Food Allergy</label>
+                    <input placeholder="Please tell us of food allergys" required>                
+                </div>
+                <div class="contact">           
+                    <label>Message</label>
+                    <textarea required></textarea>
+                </div>
+                <div class="text-center">           
+                    <a class="button">Submit</a>
+                </div>
+           </form>
+       </div>
+</section>
 <---Footer--->
-
+    <footer class="footer mt-4" >
+        <div class="text-center py-5" border-top>
+            <h2 class="py-5">Pam's Pops</h2>
+            <div class="mx-auto heading-line"></div>
+        </div>
+            <div classs="container">            
+            <ul class="social-media">
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                 <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                 <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+                 <li><a href="https://www.whatsapp.com" target="_blank"> <i class="fab fa-whatsapp-square"></i></a></li>
+            </ul>
+            </div>
+            <div class="copyright text-center border-top py-3 ">
+                <p>&copy; Copyright Pam's Pops</p>                
+            </div>
+        </div>
+   </footer>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
