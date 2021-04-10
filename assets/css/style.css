@@ -1,168 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-}
-
-h2 {
-    letter-spacing: 5px;
-    text-transform: Uppercase;
-    Color: blue;
-}
-
-
-.container:
-    {
-        margin-top: 100px;
-        position: relative;
-    }
-
-.container img {
-    display: block;
-    width: 100%;
-}
-
+body{
+    font-family: 'Oxygen', sans-serif;
+    background: #BCA7B4;
     
-nav {
-    position: fixed;
-    z-index: 20;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100px;
-    padding: 0 5%;
-    color: blue;
-    background: pink;
 }
 
-nav .logo {
-    float: left;
-    width: 30%;
-    height: 100%;
-    align-items: center;
-    font-size: 30px;
+.navbar-item {
+    color: #A63A50;
+
 }
 
-nav .new-menu {
-    margin: 0;
-    width: 70%;
-    height: 100%
-    float: right;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar.nav-link {
+    text-transform: none;
+    font-size: 15px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
 }
 
-nav .new-menu li {
-    list-style: none;
+.navbar-toggler{
+    outline: none !important;
+    
 }
-
-nav .new-menu a {
-    text-decoration: none;
-    padding: 1em;
-    font-size: 20px;
-    display: block;
-    font-weight: bold;
-}
-
-
 img {
-    overflow: hidden;
-    box-sizing: border-box;
+    vertical-align: middle;
 }
 
-
-#temp-logo {
-    font-size: 300%;
-    margin-left: 40px;
-    float: left;
-    line-height: 60px;
-}
-
-#main-menu {
-    font-size: 200%;
-    letter-spacing: 5px;      
-    line-height: 60px;
-    list-style-type: none;   
-}
-
-#main-menu  li {
-    float: right;
-    margin-right: 40px
-  
-}
-
-#main-menu  a {
-    text-decoration: none;
-    color: blue;
-}
-
-#main-menu  a:hover {
-    border-bottom: 2px solid white;
-}
-
-
-
-
-
-.gallery figure {
-    margin: 0;
-    left: 0;
-    animation: 15s slider infinite;
-    postion: relative;
-}
-
-.gallery figure img {
-    float: left;
-    width 20%;
-    margin: 0;
-    left: 0;
-    right: 0;
-    animation: 20s slider infinite;
-
-}
-
-/from jamil mohammadii - youtube/
-
-@keyframes gallery {
-    0% {
-        left: 0;
-    }
-
-    20% {
-        left: 0;
-    }
-
-    25% {
-        left: -100%;
-    }
-
-    45% {
-        left: -100%;
-    }
-
-    50% {
-        left: -200%;
-    }
-
-    70% {
-        left: -200%;
-    }
-
-    75% {
-        left: -300%;
-    }
-
-    95% {
-        left: -300%;
-    }
-
-}
-
-
+<!About Pam.......>
 .poppam-section {
    position: absolute;
     top: 50%;
@@ -192,8 +54,10 @@ img {
     font-size: 14px;
     color: blue;
 }
+<!About Pam Ends.......>
 
 
+<---!contact us--->
 .pop-message {
     position: absolute;
     top: 50%;
@@ -207,8 +71,10 @@ img {
     padding: 40px 40px;
 }
 
+
 .pop-message h2{
     margin-top: 0;
+    text-align: center;
 }
 
 .contact {
@@ -242,10 +108,12 @@ img {
     margin-top: 5px;
     width: 100%;
 }
+<!contact us Ends....>
 
+<---Footer--->
 footer {
-    height: 100px;
-}
+    background: #BCA7B4;
+   }
 
 .social-media {
     text-align: center;
@@ -260,4 +128,3 @@ footer {
     margin: 0.5%;
     text-align: center;
 }
-
