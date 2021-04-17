@@ -1,30 +1,41 @@
 body{
     font-family: 'Oxygen', sans-serif;
-    background: #BCA7B4;
+    background: rgb(240, 151, 206);
     
 }
 
 img.slider{
     width: 100%;
-    height: 600px;
+    height: 500px;
+    
 
 }
 
 .section_padding{
 
-    padding-top:50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+.navbar {
+    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: #413c3c;
 }
 
 
-.navbar-item {
-    color: #A63A50;
+.nav-item {
+    color: rgb(182, 69, 91);
 
 }
 
 .navbar.nav-link {
     text-transform: none;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 16px !important;
     padding-left: 16px !important;
 }
@@ -33,62 +44,20 @@ img.slider{
     outline: none !important;
     
 }
+
+.carousel.slide {
+    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
+}
+
+.carousel-caption {
+       color: rgb(28, 59, 99);
+
+}
 img {
     vertical-align: middle;
+    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
 }
 
-<!About Pam.......>
-.poppam-section {
-   position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    box-sizing: border-box;
-    box-shadow: 0 0 30px blue;
-    border-radius: 10px;
-    text-align: center;
-    padding: 40px 40px;
-}
-
-
-.notes {
-    font-size: 14px;
-    line-height: 40px;
-    text-align: justify;
-    margin-bottom: 40px;
-    color: blue;
-}
-
-.cakes {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: blue;
-}
-<!About Pam Ends.......>
-
-
-<---!contact us--->
-.pop-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
-    box-shadow: 0 0 30px blue;
-    border-radius: 10px;
-    text-align: center;
-    padding: 40px 40px;
-}
-
-
-.pop-message h2{
-    margin-top: 0;
-    text-align: center;
-}
 
 .contact {
     margin: 8px 0;
@@ -121,12 +90,10 @@ img {
     margin-top: 5px;
     width: 100%;
 }
-<!contact us Ends....>
 
-<---Footer--->
 footer {
-    background: #BCA7B4;
-   }
+    box-shadow: 0 20PX 20PX rgba(0, 111, 255, 0.53);
+}
 
 .social-media {
     text-align: center;
@@ -136,10 +103,14 @@ footer {
 }
 
 .social-media i {
-    font-size: 100%;
     padding: 6%;
     margin: 0.5%;
     text-align: center;
+    font-size: 30px;
+    box-shadow: 0 20PX 20PX rgba(0, 111, 255, 0.53);
 }
 
+.container{
+    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
+}
 
