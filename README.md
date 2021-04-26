@@ -1,14 +1,15 @@
 PAM'S POPS WEBSITE
 
-View the live project here (Link).
+View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
 
-        This is a website to attract clients and create an online presence for Pam’s Pop Cake business. It is a fully responsive design for fluid user navigation across various platforms and devices.
+    This is a website to attract clients and create an online presence for Pam’s Pop Cake business.
+    It is a fully responsive design for fluid user navigation across various platforms and devices.
  
 USER EXPERIENCE (UX)
 
- USER STORIES
+USER STORIES
 
-     First Time Visitor Goals
+    First Time Visitor Goals
 
         As a First Time Visitor, I want to easily see the available design shapes and how to order
         As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
@@ -31,7 +32,9 @@ DESIGN
 
     Typography
 
-        The Oxygen font, an attractive and common font, is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correct.
+        The Oxygen font, an attractive and common font, is the main font used throughout the website.
+        Sans Serif is used as the fallback font in case for any reason, the font isn't being 
+        imported into the site correct.
     
     Imagery
 
@@ -48,27 +51,35 @@ DESIGN
 
 TECHNOLOGIES USED
 
-    1. Languages Used
+    1. Languages 
 
         HTML5
         CSS3
 
-    2. Frameworks, Libraries & Programs Used
+    2. Frameworks, Libraries & Programs 
 
         Bootstrap 5:
         Bootstrap was used to assist with the responsiveness and styling of the website.
+
         Hover.css:
-        Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+        Hover.css was used on the Social Media icons in the footer to add the float transition while being 
+        hovered over.
+
         Google Fonts:
-        Google fonts were used to import the 'Oxygen' font into the style.css file which is used on all pages throughout the project.
+        Google fonts were used to import the 'Oxygen' font into the style.css file which is used on all pages.
+
         Font Awesome:
         Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
         jQuery:
-        jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+        jQuery came with Bootstrap to make the navbar responsive, also for the smooth scroll function in JavaScript.
+        
         Git
         Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+        
         GitHub:
         GitHub is used to store the project's code after being pushed from Git.
+       
         Balsamiq:
         Balsamiq was used for  wireframes during the design process.
 
@@ -76,10 +87,11 @@ TECHNOLOGIES USED
 
 CODE VALIDITY
 
-        The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-        W3C Markup Validator 
-        W3C CSS Validator 
-        Repaginator
+        -   W3C Markup Validator 
+        -   W3C CSS Validator 
+        -   Repaginator
+        (The W3C Markup Validator and W3C CSS Validator Services were consistently used to validate every page 
+        of the project to ensure there were no syntax errors in the project.)
 
 TESTING
 
@@ -146,7 +158,6 @@ GitHub Pages
 
             Log in to GitHub and locate the GitHub Repository
             At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-            Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
             Scroll down the Settings page until you locate the "GitHub Pages" Section.
             Under "Source", click the dropdown called "None" and select "Master Branch".
             The page will automatically refresh.
@@ -158,25 +169,12 @@ GitHub Pages
             Log in to GitHub and locate the GitHub Repository
             At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
             You should now have a copy of the original repository in your GitHub account.
-            Making a Local Clone
+    
+    Making a Local Clone
             Log in to GitHub and locate the GitHub Repository
             Under the repository name, click "Clone or download".
             To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 
-    Open Git Bash
-
-            Change the current working directory to the location where you want the cloned directory to be made.
-            Type git clone, and then paste the URL you copied in Step 3.
-            $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-            Press Enter. Your local clone will be created.
-            $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-            > Cloning into `CI-Clone`...
-            > remote: Counting objects: 10, done.
-            > remote: Compressing objects: 100% (8/8), done.
-            > remove: Total 10 (delta 1), reused 10 (delta 1)
-            > Unpacking objects: 100% (10/10), done.
-
- 
 CREDITS
 
     CODE
