@@ -1,11 +1,13 @@
-PAM'S POPS WEBSITE
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ElizabethNW/MS1-Pop-Cakes)
+
+<h1 align="center">PAM'S POPS WEBSITE</h1
 
 View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
 
     This is a website to attract clients and create an online presence for Pam’s Pop Cake business.
     It is a fully responsive design for fluid user navigation across various platforms and devices.
  
-USER EXPERIENCE (UX)
+## USER EXPERIENCE (UX)
 
     USER STORIES
 
@@ -24,7 +26,7 @@ USER EXPERIENCE (UX)
         Frequent User Goals
             -  As a Frequent User, I want to check to see if there are any seasonal designs.
 
-DESIGN
+## DESIGN
 
     Colour Scheme
 
@@ -49,7 +51,7 @@ DESIGN
         Interactive elements
 
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
     1. Languages 
 
@@ -85,7 +87,7 @@ TECHNOLOGIES USED
 
 
 
-CODE VALIDITY
+## CODE VALIDITY
 
         -   W3C Markup Validator 
         -   W3C CSS Validator 
@@ -93,7 +95,7 @@ CODE VALIDITY
         (The W3C Markup Validator and W3C CSS Validator Services were consistently used to validate 
         every page of the project to ensure there were no syntax errors in the project.)
 
-TESTING
+## TESTING
 
     Testing User Stories from User Experience (UX) Section
 
@@ -139,7 +141,7 @@ TESTING
 
             -   A white gap was reportedly, occassionally seen to the right of the pages in the gallery
  
-DEPLOYMENT
+## DEPLOYMENT
 
     GitHub Pages
 
@@ -168,7 +170,7 @@ DEPLOYMENT
             -  Under the repository name, click "Clone or download".
             -  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 
-CREDITS
+## CREDITS
 
     CODE
 
