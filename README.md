@@ -1,5 +1,3 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ElizabethNW/MS1-Pop-Cakes)
-
 <h1 align="center">PAM'S POPS WEBSITE</h1
 
 View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
