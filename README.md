@@ -2,85 +2,88 @@
 
 View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
 
-    This is a website to attract clients and create an online presence for Pam’s Pop Cake business.
-    It is a fully responsive design for fluid user navigation across various platforms and devices.
+This is a website to attract clients and create an online presence for Pam’s Pop Cake business.
+It is a fully responsive design for fluid user navigation across various platforms and devices.
+
  
 ## USER EXPERIENCE (UX)
 
-    USER STORIES
+-   ###    User Stories
 
-        First Time Visitor Goals
+    -   ####        First Time Visitor Goals
 
             -  As a First Time Visitor, I want to easily see the available design shapes and how to order
             -  As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
             -  As a First Time Visitor, I want to know if there are different flavours.
             -  As a First Time Visitor, I also want to connect with the business on social media links.
 
-        Returning Visitor Goals
+    -   ####    Returning Visitor Goals
+
             -  As a Returning Visitor, I want to find see new designs
             -  As a Returning Visitor, I want to be able to contact the business to place orders
             -  As a Returning Visitor, I want to find social media links.
 
-        Frequent User Goals
+    -   ####    Frequent User Goals
+
             -  As a Frequent User, I want to check to see if there are any seasonal designs.
 
 ## DESIGN
 
-    Colour Scheme
+-   ###    Colour Scheme
 
         The three main colours used are Pink, Blue and white.
 
-    Typography
+-   ###    Typography
 
         The Oxygen font, an attractive and common font, is the main font used throughout the website.
         Sans Serif is used as the fallback font in case for any reason, the font isn't being imported 
         into the site correctly.
     
-    Imagery
+-   ###    Imagery
 
         Imagery is bright and vivid with pictures to captivate users.
 
 
-    Wireframes
+-   ###    Wireframes
         Balsamiq, a pen and sheets of paper was used to create wireframes.
 
-    Features
+-   ###    Features
         Responsive on all device sizes
         Interactive elements
 
 
 ## TECHNOLOGIES USED
 
-    1. Languages 
+###    1. Languages 
 
         HTML5
         CSS3
 
-    2. Frameworks, Libraries & Programs 
+###    2. Frameworks, Libraries & Programs 
 
-        Bootstrap 4:
+-   ####        Bootstrap 4:
         Bootstrap was used to assist with the responsiveness and styling of the website.
 
-        Hover.css:
+-   ####        Hover.css:
         Hover.css was used on the Social Media icons in the footer to add the float transition while being 
         hovered over.
 
-        Google Fonts:
+-   ####        Google Fonts:
         Google fonts were used to import the 'Oxygen' font into the style.css file which is used on all pages.
 
-        Font Awesome:
+-   ####        Font Awesome:
         Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-        jQuery:
+-   ####        jQuery:
         jQuery came with Bootstrap to make the navbar responsive, also for the smooth scroll function in JavaScript.
         
-        Git
+-   ####        Git
         Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
         
-        GitHub:
+-   ####        GitHub:
         GitHub is used to store the project's code after being pushed from Git.
        
-        Balsamiq:
+-   ####        Balsamiq:
         Balsamiq was used for  wireframes during the design process.
 
 
@@ -95,9 +98,9 @@ View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
 
 ## TESTING
 
-    Testing User Stories from User Experience (UX) Section
+-   ###    Testing User Stories from User Experience (UX) Section
 
-        First Time Visitor Goals
+-   ####         First Time Visitor Goals
 
             As a First Time Visitor, I want to easily see the available design shapes and how to order
             -   Users are immediately greeted with a carousel slider displaying different styles, 
@@ -111,7 +114,7 @@ View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
             -  User can also specify their preferred flavour when placing order for the bespoke pop-cakes..
 
             
-        Returning Visitor Goals
+-   ####         Returning Visitor Goals
 
             As a Returning Visitor, I want to find/see new designs
             -   User can see added designs on the slider and Pop-Styles sections
@@ -124,24 +127,24 @@ View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
             -   User can easily find, scroll to, and access the beautifully highlighted social media links at the bottom of the site.
             
             
-        Frequent User Goals
+-   ####         Frequent User Goals
             As a Frequent User, I want to check to see if there are any seasonal designs.
             -  The User can see designs on the designated section for seasona designs on the second page -popstyles.
                         
-        Further Testing
+-   ####         Further Testing
 
             -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
             -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhones and androids.
             -   A large amount of testing was done to ensure that all pages were linking correctly.
             -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
        
-        Known Bugs
+-   ####        Known Bugs
 
             -   A white gap was reportedly, occassionally seen to the right of the pages in the gallery
  
 ## DEPLOYMENT
 
-    GitHub Pages
+-   ####    GitHub Pages
 
         The project was deployed to GitHub Pages using the following steps...
 
@@ -153,7 +156,7 @@ View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
                 The page will automatically refresh.
             -   Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
         
-        Forking the GitHub Repository
+-   ####        Forking the GitHub Repository
 
             By forking the GitHub Repository we make a copy of the original repository on our GitHub
             account to view and/or make changes without affecting the original repository by using
@@ -163,34 +166,34 @@ View the live project here (https://elizabethnw.github.io/MS1-Pop-Cakes/).
                 locate the "Fork" Button.
             -   You should now have a copy of the original repository in your GitHub account.
         
-        Making a Local Clone
+-   ####        Making a Local Clone
             -  Log in to GitHub and locate the GitHub Repository
             -  Under the repository name, click "Clone or download".
             -  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 
 ## CREDITS
 
-    CODE
+-   ####    CODE
 
         Bootstrap4
         Bootstrap Library used throughout the project mainly to make site responsive using the
         Bootstrap Grid System.
         
-        MDN Web Docs
+-   ####        MDN Web Docs
         For Pattern Validation code. Code was modified to better fit my needs to ensure correct 
         validation.
 
-    CONTENT
+-   ####    CONTENT
 
         All written content was by the client and developer.
 
-    COLORS/MEDIA
+-   ####    COLORS/MEDIA
 
         Pexels.com
         Pixabay.com
         Unsplash.com
 
-    ACKNOWLEDGEMENTS
+-   ####    ACKNOWLEDGEMENTS
 
        - My Mentor Antonio Rodriguez for encouraging me, support and continuous helpful feedback.
        - Pamela Tom-Jack for sharing her business expansion ideas.
