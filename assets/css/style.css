@@ -1,19 +1,8 @@
 body{
     font-family: 'Oxygen', sans-serif;
-    background: rgb(240, 151, 206);
-}
-
-img.slider{
-   width: auto;
-   height: 500px;
-   max-height: 500px
-}
-
-.section_padding{
-
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    background: yellow;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar {
@@ -21,26 +10,25 @@ img.slider{
 }
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: xxx-large;
     color: #413c3c;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 
-.nav-item {
-    color: rgb(182, 69, 91);
-
-}
-
-.navbar.nav-link {
+.navbar .nav-item {
     text-transform: none;
-    font-size: 20px;
-  }
+    font-size: larger;
+    color: white !important;
+ }
 
 .navbar-toggler{
     outline: none !important;
     
+}
+
+.carousel-item img {
+    max-height: 500px;
+    min-height: 250px;
 }
 
 .carousel.slide {
@@ -51,22 +39,43 @@ img.slider{
        color: rgb(28, 59, 99);
 
 }
-img {
-    vertical-align: middle;
-    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
+
+.featurette-heading {
+    font-size: xxx-large;
+    text-align: center;
 }
 
+.text-muted {
+    font-size: x-large;
+}
+
+p.styletext {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+img {
+   box-shadow: 0 20PX 20PX rgba(0, 111, 255, 0.53);
+}
+
+.section_padding{
+
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .contact {
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 5px;
-    border: 2px solid #FFA6C1;
+    border: 2px solid rgb(250, 247, 248);
 }
 
 .contact label {
     text-align: left;
-    text-transform: Uppercase;
+    text-transform: none;
     display: block;
 }
 
@@ -76,17 +85,10 @@ img {
     outline: none;
     margin-top: 5px;
     font-size: 20px;
-    width: 100%;
 }
 
-.button .submit {
-    display: inline-block;
-    padding: 15px 0;
-    color: black;
-    cursor: pointer;
-    text-transform: Uppercase;
-    margin-top: 5px;
-    width: 100%;
+form.pop-a-message {
+    background-color: rgb(125, 170, 209);
 }
 
 footer {
@@ -108,7 +110,8 @@ footer {
     box-shadow: 0 20PX 20PX rgba(0, 111, 255, 0.53);
 }
 
-.container{
-    box-shadow: 0 0 30px rgba(0, 111, 255, 0.53);
+.container {
+    box-shadow: 0 20PX 20PX rgba(0, 111, 255, 0.53);
+    background-color:rgb(225, 224, 235);
 }
 
