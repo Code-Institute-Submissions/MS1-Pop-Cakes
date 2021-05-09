@@ -10,7 +10,7 @@ body{
 }
 
 .navbar-brand {
-    font-size: xxx-large;
+    font-size: xx-large;
     color: #413c3c;
 }
 
@@ -42,8 +42,9 @@ body{
 }
 
 .carousel-caption {
-       color: rgb(28, 59, 99);
-
+    color: rgba(138, 54, 194, 0.877);
+    text-shadow: rgb(216, 112, 147);
+  
 }
 
 .featurette-heading {
