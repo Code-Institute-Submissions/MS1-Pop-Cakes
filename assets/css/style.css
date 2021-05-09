@@ -1,6 +1,6 @@
 body{
     font-family: 'Oxygen', sans-serif;
-    background: yellow;
+    background: rgb(240, 151, 206);
     padding-left: 0;
     padding-right: 0;
 }
@@ -26,9 +26,15 @@ body{
     
 }
 
+.ml-auto{
+    margin-left: auto !important;
+}
+
+
 .carousel-item img {
     max-height: 500px;
     min-height: 250px;
+    object-fit: cover;
 }
 
 .carousel.slide {
