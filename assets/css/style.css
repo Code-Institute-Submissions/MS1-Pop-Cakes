@@ -44,7 +44,7 @@ body{
 .carousel-caption {
     color: rgba(138, 54, 194, 0.877);
     text-shadow: rgb(216, 112, 147);
-  
+    font-size: x-large;
 }
 
 .featurette-heading {
