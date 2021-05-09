@@ -185,7 +185,7 @@ The W3C Markup Validator and W3C CSS Validator Services were consistently used t
         Bootstrap Library used throughout the project mainly to make site responsive using the
         Bootstrap Grid System.
         
--   ####        [MDN Web Docs](https://developer.mozilla.org/)
+       [MDN Web Docs](https://developer.mozilla.org/)
        For Pattern Validation code. Code was modified to better fit my needs to ensure correct 
         validation.
 
@@ -197,9 +197,9 @@ The W3C Markup Validator and W3C CSS Validator Services were consistently used t
 
     [Pexels.com](https://www.pexels.com/)
 
-    Pixabay.com
+    [Pixabay.com](https://pixabay.com/)
 
-    Unsplash.com
+    [Unsplash.com](https://unsplash.com/)
 
 -   ####    ACKNOWLEDGEMENTS
 
