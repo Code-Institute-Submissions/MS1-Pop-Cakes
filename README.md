@@ -147,6 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were consistently used t
 -   ####        Known Bugs
 
       -   A white gap was reportedly, occassionally seen to the right of the pages in the gallery
+      -   Performance on Lighthouse slightly impacted due to size of images
  
 ## DEPLOYMENT
 
